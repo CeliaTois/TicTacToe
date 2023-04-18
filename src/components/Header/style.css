@@ -1,0 +1,33 @@
+#header, .element {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+#header {
+    justify-content: space-between;
+}
+
+#user-icon {
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+img {
+    width: 32px;
+}
+
+nav ul {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    font-weight: 500;
+}
+
+input {
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+}

@@ -1,7 +1,11 @@
-import logo from "./assets/icons/logo.svg";
+import Header from "./components/Header";
 
 function App() {
-  return <div className="App">TicTacToe</div>;
+  return (
+    <div id="page-container">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
